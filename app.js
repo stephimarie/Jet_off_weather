@@ -5,7 +5,7 @@ const appId = "&appid=";
 
 
 $("#btnSrc").on("click", function() {
-    let searchCity = $(".form-control").val();
+    let searchCity = $(".input").val();
     let weatherSrc = "https://api.openweathermap.org/data/2.5/weather?q=" + searchCity + appId + apiKey;
 
     $.ajax({
