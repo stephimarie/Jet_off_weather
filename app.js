@@ -1,4 +1,4 @@
-
+$(document).ready( function(){ 
 
 const apiKey = '9795c05e3861e29aa3fa17430c07e4d2';
 const appId = "&appid=";
@@ -7,6 +7,7 @@ const appId = "&appid=";
 $("#btnSrc").on("click", function() {
     let searchCity = $(".input").val();
     let weatherSrc = "https://api.openweathermap.org/data/2.5/weather?q=" + searchCity + appId + apiKey;
+    console.log(searchCity)
 
     $.ajax({
         url: weatherSrc,
@@ -19,6 +20,6 @@ $("#btnSrc").on("click", function() {
     })
 
 
-})
+})})
 
 
