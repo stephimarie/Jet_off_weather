@@ -15,8 +15,11 @@ $("#btnSrc").on("click", function() {
     }).then(function (res) {
         console.log(res);
         let cityName = res.name;
-    
-        let temp = res.main.feels_like
+        let condition = res.weather.[0];
+        let temp = res.main.feels_like;
+        let humidity = res.main.humidity;
+        let wind = res.wind;
+        let uv = 
          console.log(temp);
         $("#cityName").text(cityName);
         $("#temp").text(temp)
@@ -25,4 +28,6 @@ $("#btnSrc").on("click", function() {
 
 })})
 
+localStorage.setItem(“nameOfTheItem”, JSON.stringify(“object”)
 
+then JSON.parse(local.Storage.getItem(“nameOfTheItem”));
