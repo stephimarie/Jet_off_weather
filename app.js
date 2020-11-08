@@ -29,4 +29,11 @@ $(document).ready(function () {
 
 
         })
-    })localStorage.setItem(“nameOfTheItem”, JSON.stringify(“object”).JSON.parse(local.Storage.getItem(“nameOfTheItem”));
+    })
+
+    localStorage.setItem(“cityName”, JSON.stringify(“object”).JSON.parse(local.Storage.getItem(“cityName”));
+    localStorage.setItem(“condition”, JSON.stringify(“object”).JSON.parse(local.Storage.getItem(“condition”));
+    localStorage.setItem(“temp”, JSON.stringify(“object”).JSON.parse(local.Storage.getItem(“temp”));
+    localStorage.setItem(“humidity”, JSON.stringify(“object”).JSON.parse(local.Storage.getItem(“humidity”));
+    localStorage.setItem(“wind”, JSON.stringify(“object”).JSON.parse(local.Storage.getItem(“wind”));
+    localStorage.setItem(“uv”, JSON.stringify(“object”).JSON.parse(local.Storage.getItem(“uv”));
