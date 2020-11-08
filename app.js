@@ -7,6 +7,10 @@ $(document).ready(function () {
         let searchCity = $(".input").val();
         let weatherFore = "https://api.openweathermap.org/data/2.5/forecast?q=" + searchCity + appId + apiKey;
 
+        $.ajax({url: weatherFore, method: "GET"}).then(function (res) {
+            console.log(res);
+            let fiveDay = res.name;
+
         console.log(searchCity)$("#btnSrc").on("click", function () {
             let searchCity = $(".input").val();
             let weatherSrc = "https://api.openweathermap.org/data/2.5/weather?q=" + searchCity + "&units=imperial" + appId + apiKey;
