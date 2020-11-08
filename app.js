@@ -6,6 +6,7 @@ $(document).ready(function () {
     $("#btnSrc").on("click", function () {
         let searchCity = $(".input").val();
         let weatherFore = "https://api.openweathermap.org/data/2.5/forecast?q=" + searchCity + appId + apiKey;
+
         console.log(searchCity)$("#btnSrc").on("click", function () {
             let searchCity = $(".input").val();
             let weatherSrc = "https://api.openweathermap.org/data/2.5/weather?q=" + searchCity + "&units=imperial" + appId + apiKey;
