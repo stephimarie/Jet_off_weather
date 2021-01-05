@@ -1,6 +1,5 @@
 # Jet off Weather
 
-## Task
 
 Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that provides basic setup and usage instructions. You will use `localStorage` to store any persistent data.
 
@@ -10,11 +9,6 @@ Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather da
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
-```
-
-## Acceptance Criteria
-
-```
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
 THEN I am presented with current and future conditions for that city and that city is added to the search history
@@ -33,5 +27,15 @@ THEN I am again presented with current and future conditions for that city
 The following image shows the web application's appearance and functionality:
 
 ![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+
+
+## BuiltWith:
+
+* HTML
+* CSS
+* API
+
+## Github Links
+[Jet off Weather](https://stephimarie.github.io/Password_Wizard/.)
 
 
